@@ -1,0 +1,13 @@
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/UnityEngine.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/UnityEditor.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/Mono.Cecil.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/Unity.DataContract.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/willkal/VE-Lab/Myo_Experiment/Temp/bin/Debug/Mono.Cecil.Mdb.dll

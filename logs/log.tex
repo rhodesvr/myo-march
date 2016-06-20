@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[margin = 1in]{geometry}
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+
+\title{
+  Fall 2015 CS Log
+}
+
+\author{
+Preston Tunnell Wilson }
+
+\date{}
+
+\maketitle
+
+\section*{November 21st}
+Trying out two MYO's!
+\section*{November 5th}
+It has been a pretty active day today!
+I was looking over the MYO code and how we could change it to our three pronged approach to experiements,
+but I realized that there might be a discrepancy between the version on one computer and the version on the other.
+Thus, I planned to checkout the various commits and see which one worked.
+
+As it worked out, the most recent version, or the most recent commit, was incorrect.
+After double checking several times, I assured myself of this.
+Now that we know this, we can figure out how this code works better
+which will lead to a cleaner and working three-pronged experiment.
+To be sure that I don't accidentally overwrite/lose this working version,
+I have put it in its own branch.
+
+Additionally, we met with Bryton today.
+He showed us his code-there are three files in Documents>JogJoy (or something like that).
+\begin{itemize}
+\item ExpLeanJoy uses head proximity to the Kinect after taking a baseline of the subject's posture.
+  Leaning one's head side to side rotates the view.
+\item SitJoy is meant to be navigation without leaning.
+  Instead, it uses hand/wrist movement.
+  Additionally, it has a speed count to ramp up movement.
+\item Finally, ExpJogJoy is the standing up version.
+  However, much like my code, it ran into problems of occlusion in the Kinects.
+  Furthermore, people would sometimes be facing the wrong direction after turning around,
+  thus switching the left and right arms.
+\end{itemize}
+
+\section*{October 31st}
+Ansel and I met with Will and Josh!
+They showed us that Myo2 and Myo should be the codes which we should run.
+Additionally, they pointed out that we have to have an oculus attached to the computer to get it to work.
+We might also need to end the Myo task in order to get it working.
+Additionally, at the end of the experiment, we have to have the hub shut down.
+They think it is a keypress of ``p''; we could additionally stop the script.
+If we are having trouble getting the Myo to connect, we can create a new profile instead.
+That might be faster.
+\section*{October 11th}
+Ansel and I stopped by the VE lab today.
+Unfortunately, we did not get much accomplished.
+After fumbling through getting the myo arm bands working,
+we still ran into problems getting the experiments up and running.
+We contacted Bryton to see if he would be able to help us with getting
+the experiments working.
+
+I plan on restructuring our experiment code into three classes.
+We delegate knowledge of the experiment, knowledge of navigation, and knowledge of the environment
+into three separate classes.
+One issue is which class should take responsibility for moving through the different trials.
+The environment knows where the cylinders and objects are...
+I guess it will let the experiment know when it is done with a specific location and then with a trial.
+\end {document}
