@@ -39,7 +39,7 @@ def io():
 		f.write(s.encode())
 		f.close()
 		#print("just wrote", s)
-		time.sleep(.01)
+		time.sleep(.05)
 	except:
 		pass
 
@@ -48,6 +48,6 @@ def p():
 
 def main():
 	vizact.ontimer(0, io)
-	vizact.ontimer(0, p)
+	#vizact.ontimer(0, p)
 			
 main()
